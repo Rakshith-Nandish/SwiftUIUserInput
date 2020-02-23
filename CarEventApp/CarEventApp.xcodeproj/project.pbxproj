@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A521A2F168CAE2A89AC459DA /* Pods_CarEventApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F638951E03785E5280CA8843 /* Pods_CarEventApp.framework */; };
+		ACCC58F91FCC73B200F09E0B /* HomeViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC58F81FCC73B200F09E0B /* HomeViewControllerExtension.swift */; };
+		ACCC58FB1FCC7A3000F09E0B /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC58FA1FCC7A3000F09E0B /* EventDetailViewController.swift */; };
+		ACE031C11FCA6D7B00C129FB /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031C01FCA6D7B00C129FB /* UserInfo.swift */; };
+		ACE031C41FCA953000C129FB /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031C31FCA953000C129FB /* CommonUtil.swift */; };
+		ACE031C61FCA965600C129FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031C51FCA965600C129FB /* Constants.swift */; };
+		ACE031C81FCAA11900C129FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031C71FCAA11900C129FB /* HomeViewController.swift */; };
+		ACE031CA1FCAA37E00C129FB /* HamburgerMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031C91FCAA37E00C129FB /* HamburgerMenuController.swift */; };
+		ACE031CC1FCAC55D00C129FB /* HamburgerMenuExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031CB1FCAC55D00C129FB /* HamburgerMenuExtension.swift */; };
+		ACE031CE1FCACDE000C129FB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031CD1FCACDE000C129FB /* ProfileViewController.swift */; };
+		ACE031D21FCAF7A300C129FB /* HomeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE031D01FCAF7A300C129FB /* HomeListTableViewCell.swift */; };
+		ACE031D31FCAF7A300C129FB /* HomeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE031D11FCAF7A300C129FB /* HomeListTableViewCell.xib */; };
+		ACF29C921FC9FA200046BE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF29C911FC9FA200046BE01 /* AppDelegate.swift */; };
+		ACF29C941FC9FA200046BE01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF29C931FC9FA200046BE01 /* LoginViewController.swift */; };
+		ACF29C971FC9FA210046BE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF29C951FC9FA210046BE01 /* Main.storyboard */; };
+		ACF29C991FC9FA210046BE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF29C981FC9FA210046BE01 /* Assets.xcassets */; };
+		ACF29C9C1FC9FA210046BE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF29C9A1FC9FA210046BE01 /* LaunchScreen.storyboard */; };
+		ACF29CA41FC9FC440046BE01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACF29CA31FC9FC440046BE01 /* GoogleService-Info.plist */; };
+		ACF29CA61FCA00A00046BE01 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF29CA51FCA00A00046BE01 /* StoreKit.framework */; };
+		ACF29CA81FCA00A60046BE01 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF29CA71FCA00A60046BE01 /* AddressBook.framework */; };
+		ACF29CAA1FCA00AE0046BE01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF29CA91FCA00AE0046BE01 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C3280A0059333FD7802AD4A /* Pods-CarEventApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarEventApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarEventApp/Pods-CarEventApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA103742D826390D5E92035 /* Pods-CarEventApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarEventApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarEventApp/Pods-CarEventApp.release.xcconfig"; sourceTree = "<group>"; };
+		ACCC58F81FCC73B200F09E0B /* HomeViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerExtension.swift; sourceTree = "<group>"; };
+		ACCC58FA1FCC7A3000F09E0B /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		ACE031C01FCA6D7B00C129FB /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		ACE031C31FCA953000C129FB /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		ACE031C51FCA965600C129FB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ACE031C71FCAA11900C129FB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ACE031C91FCAA37E00C129FB /* HamburgerMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerMenuController.swift; sourceTree = "<group>"; };
+		ACE031CB1FCAC55D00C129FB /* HamburgerMenuExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerMenuExtension.swift; sourceTree = "<group>"; };
+		ACE031CD1FCACDE000C129FB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACE031D01FCAF7A300C129FB /* HomeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeListTableViewCell.swift; sourceTree = "<group>"; };
+		ACE031D11FCAF7A300C129FB /* HomeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeListTableViewCell.xib; sourceTree = "<group>"; };
+		ACF29C8E1FC9FA200046BE01 /* CarEventApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarEventApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF29C911FC9FA200046BE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF29C931FC9FA200046BE01 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACF29C961FC9FA210046BE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF29C981FC9FA210046BE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF29C9B1FC9FA210046BE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF29C9D1FC9FA210046BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF29CA31FC9FC440046BE01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACF29CA51FCA00A00046BE01 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ACF29CA71FCA00A60046BE01 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		ACF29CA91FCA00AE0046BE01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F638951E03785E5280CA8843 /* Pods_CarEventApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarEventApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF29C8B1FC9FA200046BE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF29CAA1FCA00AE0046BE01 /* SystemConfiguration.framework in Frameworks */,
+				ACF29CA81FCA00A60046BE01 /* AddressBook.framework in Frameworks */,
+				ACF29CA61FCA00A00046BE01 /* StoreKit.framework in Frameworks */,
+				A521A2F168CAE2A89AC459DA /* Pods_CarEventApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		948E54D8C20DCDB0D94310FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACF29CA91FCA00AE0046BE01 /* SystemConfiguration.framework */,
+				ACF29CA71FCA00A60046BE01 /* AddressBook.framework */,
+				ACF29CA51FCA00A00046BE01 /* StoreKit.framework */,
+				F638951E03785E5280CA8843 /* Pods_CarEventApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC953D56422EAE47628FF43A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3280A0059333FD7802AD4A /* Pods-CarEventApp.debug.xcconfig */,
+				4BA103742D826390D5E92035 /* Pods-CarEventApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACE031BE1FCA6D3E00C129FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACE031C01FCA6D7B00C129FB /* UserInfo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ACE031BF1FCA6D4C00C129FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACF29C931FC9FA200046BE01 /* LoginViewController.swift */,
+				ACE031CF1FCAF78400C129FB /* Home */,
+				ACE031C91FCAA37E00C129FB /* HamburgerMenuController.swift */,
+				ACE031CB1FCAC55D00C129FB /* HamburgerMenuExtension.swift */,
+				ACE031CD1FCACDE000C129FB /* ProfileViewController.swift */,
+				ACCC58FA1FCC7A3000F09E0B /* EventDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ACE031C21FCA951D00C129FB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				ACE031C31FCA953000C129FB /* CommonUtil.swift */,
+				ACE031C51FCA965600C129FB /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		ACE031CF1FCAF78400C129FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACE031C71FCAA11900C129FB /* HomeViewController.swift */,
+				ACE031D01FCAF7A300C129FB /* HomeListTableViewCell.swift */,
+				ACE031D11FCAF7A300C129FB /* HomeListTableViewCell.xib */,
+				ACCC58F81FCC73B200F09E0B /* HomeViewControllerExtension.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		ACF29C851FC9FA200046BE01 = {
+			isa = PBXGroup;
+			children = (
+				ACF29CA31FC9FC440046BE01 /* GoogleService-Info.plist */,
+				ACF29C901FC9FA200046BE01 /* CarEventApp */,
+				ACF29C8F1FC9FA200046BE01 /* Products */,
+				AC953D56422EAE47628FF43A /* Pods */,
+				948E54D8C20DCDB0D94310FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF29C8F1FC9FA200046BE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF29C8E1FC9FA200046BE01 /* CarEventApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF29C901FC9FA200046BE01 /* CarEventApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACE031C21FCA951D00C129FB /* Util */,
+				ACE031BF1FCA6D4C00C129FB /* Controllers */,
+				ACE031BE1FCA6D3E00C129FB /* Model */,
+				ACF29C911FC9FA200046BE01 /* AppDelegate.swift */,
+				ACF29C951FC9FA210046BE01 /* Main.storyboard */,
+				ACF29C981FC9FA210046BE01 /* Assets.xcassets */,
+				ACF29C9A1FC9FA210046BE01 /* LaunchScreen.storyboard */,
+				ACF29C9D1FC9FA210046BE01 /* Info.plist */,
+			);
+			path = CarEventApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF29C8D1FC9FA200046BE01 /* CarEventApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF29CA01FC9FA210046BE01 /* Build configuration list for PBXNativeTarget "CarEventApp" */;
+			buildPhases = (
+				7F15DDF264A9DDDF77BE217C /* [CP] Check Pods Manifest.lock */,
+				ACF29C8A1FC9FA200046BE01 /* Sources */,
+				ACF29C8B1FC9FA200046BE01 /* Frameworks */,
+				ACF29C8C1FC9FA200046BE01 /* Resources */,
+				B1DE9B7B35D7BB16C570651A /* [CP] Embed Pods Frameworks */,
+				400A9C8126BE25411102A141 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarEventApp;
+			productName = CarEventApp;
+			productReference = ACF29C8E1FC9FA200046BE01 /* CarEventApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF29C861FC9FA200046BE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rakshith;
+				TargetAttributes = {
+					ACF29C8D1FC9FA200046BE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACF29C891FC9FA200046BE01 /* Build configuration list for PBXProject "CarEventApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF29C851FC9FA200046BE01;
+			productRefGroup = ACF29C8F1FC9FA200046BE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF29C8D1FC9FA200046BE01 /* CarEventApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF29C8C1FC9FA200046BE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF29C9C1FC9FA210046BE01 /* LaunchScreen.storyboard in Resources */,
+				ACE031D31FCAF7A300C129FB /* HomeListTableViewCell.xib in Resources */,
+				ACF29CA41FC9FC440046BE01 /* GoogleService-Info.plist in Resources */,
+				ACF29C991FC9FA210046BE01 /* Assets.xcassets in Resources */,
+				ACF29C971FC9FA210046BE01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		400A9C8126BE25411102A141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarEventApp/Pods-CarEventApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F15DDF264A9DDDF77BE217C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DE9B7B35D7BB16C570651A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarEventApp/Pods-CarEventApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF29C8A1FC9FA200046BE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCC58F91FCC73B200F09E0B /* HomeViewControllerExtension.swift in Sources */,
+				ACE031C61FCA965600C129FB /* Constants.swift in Sources */,
+				ACF29C941FC9FA200046BE01 /* LoginViewController.swift in Sources */,
+				ACE031CA1FCAA37E00C129FB /* HamburgerMenuController.swift in Sources */,
+				ACE031C11FCA6D7B00C129FB /* UserInfo.swift in Sources */,
+				ACE031C41FCA953000C129FB /* CommonUtil.swift in Sources */,
+				ACCC58FB1FCC7A3000F09E0B /* EventDetailViewController.swift in Sources */,
+				ACF29C921FC9FA200046BE01 /* AppDelegate.swift in Sources */,
+				ACE031CE1FCACDE000C129FB /* ProfileViewController.swift in Sources */,
+				ACE031CC1FCAC55D00C129FB /* HamburgerMenuExtension.swift in Sources */,
+				ACE031D21FCAF7A300C129FB /* HomeListTableViewCell.swift in Sources */,
+				ACE031C81FCAA11900C129FB /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACF29C951FC9FA210046BE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF29C961FC9FA210046BE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF29C9A1FC9FA210046BE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF29C9B1FC9FA210046BE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF29C9E1FC9FA210046BE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF29C9F1FC9FA210046BE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF29CA11FC9FA210046BE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3280A0059333FD7802AD4A /* Pods-CarEventApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakshith.CarEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACF29CA21FC9FA210046BE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA103742D826390D5E92035 /* Pods-CarEventApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakshith.CarEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF29C891FC9FA200046BE01 /* Build configuration list for PBXProject "CarEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF29C9E1FC9FA210046BE01 /* Debug */,
+				ACF29C9F1FC9FA210046BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF29CA01FC9FA210046BE01 /* Build configuration list for PBXNativeTarget "CarEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF29CA11FC9FA210046BE01 /* Debug */,
+				ACF29CA21FC9FA210046BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF29C861FC9FA200046BE01 /* Project object */;
+}
